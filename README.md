@@ -2,6 +2,8 @@
 
 Personal developer portfolio built with React and TypeScript. Features a terminal/IDE-inspired design with a file-tree navigation, dark/light theme toggle, and responsive layout for mobile and desktop.
 
+Check out my portfolio: https://hangnguyen-portfolio.vercel.app/
+
 ## Tech stack
 
 - **React 19** + **TypeScript**
