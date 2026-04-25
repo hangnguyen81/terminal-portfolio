@@ -210,8 +210,8 @@ export const PORTFOLIO: Portfolio = {
   ],
 
   stack: {
-    Mobile: ['React Native', 'Expo', 'TypeScript'],
-    Frontend: ['JavaScript', 'TypeScript', 'React', 'Angular', 'HTML', 'CSS / SASS'],
+    Frontend: ['TypeScript', 'React', 'Angular', 'JavaScript', 'HTML', 'CSS / SASS', "Material UI", 'Bootstrap', 'Tailwind CSS'],
+    Mobile: ['React Native', 'Expo', 'TypeScript', 'NativeWind'],
     Backend: ['C#', '.NET', 'Node.js'],
     Databases: ['PostgreSQL', 'SQLite', 'Drizzle ORM'],
     APIs: ['REST'],
