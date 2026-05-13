@@ -26,7 +26,7 @@ export const PORTFOLIO: Portfolio = {
       current: true,
       team: 'Mobile Replenishment — Frontend focus',
       bullets: [
-        'Contributing to the development of a new mobile app — a top company priority — working with React Native (a new but familiar technology) while continuing to grow backend skills with .NET.',
+        'Contributing to the development of a new mobile app working with React Native (a new but familiar technology) while continuing to grow backend skills with .NET.',
         'Maintained and improved UI components such as Manual Orders and SCM Views through bug fixes, library upgrades, and general enhancements.',
         'Represented the team in a rotating on-call role, addressing critical customer issues and collaborating with cross-functional teams to resolve them.',
       ],
