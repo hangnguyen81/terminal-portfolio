@@ -26,7 +26,7 @@ export const PORTFOLIO: Portfolio = {
       current: true,
       team: 'Mobile Replenishment — Frontend focus',
       bullets: [
-        'Contributing to the development of a new mobile app working with React Native (a new but familiar technology) while continuing to grow backend skills with .NET.',
+        'Contributed to the development of a new mobile app working with React Native (a new but familiar technology) while continuing to grow backend skills with .NET.',
         'Maintained and improved UI components such as Manual Orders and SCM Views through bug fixes, library upgrades, and general enhancements.',
         'Represented the team in a rotating on-call role, addressing critical customer issues and collaborating with cross-functional teams to resolve them.',
       ],
@@ -216,7 +216,7 @@ export const PORTFOLIO: Portfolio = {
     Databases: ['PostgreSQL', 'SQLite', 'Drizzle ORM'],
     APIs: ['REST'],
     'Version control & CI/CD': ['Git', 'GitHub', 'GitLab', 'GitHub Actions'],
-    'AI coding tools': ['Claude Code', 'Claude AI', 'GitHub Copilot'],
+    'AI coding tools': ['Claude Code', 'Claude AI', 'GitHub Copilot', 'Cursor'],
   },
 
   education: [

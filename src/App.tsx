@@ -5,7 +5,7 @@ import { MONO } from './theme';
 type ThemeMode = 'dark' | 'light';
 
 export default function App() {
-  const [theme, setTheme] = useState<ThemeMode>('dark');
+  const [theme, setTheme] = useState<ThemeMode>('light');
   const dark = theme === 'dark';
 
   useEffect(() => {
@@ -67,8 +67,8 @@ function ThemeToggle({
                   ? '#0a1f14'
                   : '#fff'
                 : dark
-                ? 'rgba(217,232,213,0.5)'
-                : 'rgba(10,31,20,0.5)',
+                  ? 'rgba(217,232,213,0.5)'
+                  : 'rgba(10,31,20,0.5)',
             transition: 'all 0.15s',
           }}
         >

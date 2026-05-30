@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import type { FileKey } from '../../types';
 import { darkTheme, lightTheme, MONO } from '../../theme';
-import cvPdf from '../../assets/HangNguyen_CV.pdf';
 import { useViewport } from '../../hooks/useViewport';
 import { Sidebar } from './Sidebar';
 import { AboutPane } from './panes/AboutPane';
@@ -132,29 +131,6 @@ export function TerminalVariant({ dark }: Props) {
         >
           {isMobile ? activeFile : 'hang@vantaa — ~/portfolio — zsh'}
         </div>
-
-        <a
-          href={cvPdf}
-          download="HangNguyen_CV.pdf"
-          style={{
-            fontSize: 11,
-            padding: isMobile ? '6px 10px' : '5px 12px',
-            background: theme.accent,
-            color: dark ? '#0a1f14' : '#fff',
-            border: 'none',
-            borderRadius: 4,
-            cursor: 'pointer',
-            fontFamily: MONO,
-            fontWeight: 500,
-            letterSpacing: '0.04em',
-            flexShrink: 0,
-            textDecoration: 'none',
-            display: 'inline-flex',
-            alignItems: 'center',
-          }}
-        >
-          {isMobile ? 'CV ↓' : 'resume.pdf ↓'}
-        </a>
       </div>
 
       {/* Body */}
