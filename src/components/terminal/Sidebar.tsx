@@ -131,10 +131,7 @@ export function Sidebar({ theme, activeFile, onPickFile, mobile = false, onClose
           fontFamily: MONO,
         }}
       >
-        <div style={{ color: theme.accent, marginBottom: 6 }}>◉ status</div>
-        <div>
-          <span style={{ color: theme.accent2 }}>●</span> open to new opportunity
-        </div>
+        <div style={{ color: theme.accent, marginBottom: 6 }}>◉ status: open to new opportunity</div>
         <div style={{ wordBreak: 'break-all' }}>{PORTFOLIO.contact.email}</div>
       </div>
     </aside>

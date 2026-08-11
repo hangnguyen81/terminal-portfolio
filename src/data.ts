@@ -22,8 +22,8 @@ export const PORTFOLIO: Portfolio = {
       company: 'RELEX Solutions Oy',
       title: 'Software Developer — Mobile Replenishment team',
       location: 'Helsinki, Uusimaa',
-      period: 'Mar 2024 — Present',
-      current: true,
+      period: 'Mar 2024 — June 2026',
+      current: false,
       team: 'Mobile Replenishment — Frontend focus',
       bullets: [
         'Contributed to the development of a new mobile app working with React Native (a new but familiar technology) while continuing to grow backend skills with .NET.',
